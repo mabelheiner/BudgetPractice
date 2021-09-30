@@ -61,6 +61,8 @@ class Person() {
             print("Your budget for groceries is $${pGroceries}\n")
             print("Your budget for other expenses is $${pMisc}\n")
             print("Your budget for savings is $${pSavings}\n")
+
+            /* use leftOver to plan for potential item*/
         }
     }
 }
@@ -147,7 +149,10 @@ fun main() {
     else
         getPercentages(person1)
 
-    /* add when statement for checkAnswer and other responses */
+    /* add when statement for checkAnswer and other responses
+    * feature idea -- calculate savings for big purchases.
+    * ie - how much is paycheck how much is your item.
+    * ie - see how many paychecks would take to save money for item. */
 }
 
 main()
