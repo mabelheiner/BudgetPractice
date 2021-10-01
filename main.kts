@@ -89,20 +89,12 @@ fun monthsUntil(person1: Person) {
 }
 
 fun checkYes(answer: String?) {
-    var check1: String = "yes"
-    var check2: String = "y"
-    if (answer == check1) {
-        print("Sweet! Let's go!\n")
+    when(answer) {
+        "yes" -> println("Sweet! Let's go!")
+        "y" -> println("Awesome! Let's go!")
+        else -> exitProcess(1)
     }
 
-    else if (answer == check2) {
-        print("Sweet! Let's go!\n")
-    }
-
-    else {
-        print("Looks like your done here then")
-        exitProcess(1)
-    }
 }
 
 fun getPercentages(person1: Person) {
