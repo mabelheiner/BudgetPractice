@@ -11,8 +11,6 @@ to calculate how much time it will take to save for our desired items.
 I created this program to analyze and calculate the user's spending habits 
 and help them budget for future big purchases.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
-
 [Software Demo Video](https://youtu.be/QWCsmbBiNlA)
 
 # Development Environment
